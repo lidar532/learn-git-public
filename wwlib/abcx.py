@@ -12,15 +12,18 @@ Original file is located at
 
 
 def a():
-  print('a')
+  print('from a')
 
 def b():
-  print('b')
+  print('from b')
 
 def c():
-  print('c')
+  print('from c')
 
 if __name__ != "__main__":
   print('abcx defs loaded as module.')
 else:
   print('abcx run as main')
+  a()
+  b()
+  c()
